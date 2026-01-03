@@ -25,7 +25,7 @@ public class UserController {
     public Iterable<UserDto> getAllUsers() {
         return userRepository.findAll()
             .stream()
-            .map(user -> userMapper.toDto(user))
+            .map(userMapper::toDto)
             .toList();
     }
 

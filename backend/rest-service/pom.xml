@@ -71,7 +71,7 @@
 		</dependency>
 
 		<dependency>
-    		 4<groupId>org.mapstruct</groupId>
+    		<groupId>org.mapstruct</groupId>
     		<artifactId>mapstruct-processor</artifactId>
     		<version>1.6.3</version>
 		</dependency>
